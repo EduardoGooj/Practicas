@@ -1,8 +1,9 @@
-using Microsoft.AspNetCore.SignalR;
-
 namespace API.Entities;
+using API.Data;
+
+
 public class AppUser
 {
-    public int id {get;set;}= 0;
+    public int Id {get;set;}= 0;
     public required string UserName {get;set;} 
 }
